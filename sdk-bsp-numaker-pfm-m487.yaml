@@ -76,7 +76,6 @@ template_projects:
     - Kconfig
     - applications
     - makefile.targets
-    - Nu_Link_Driver.ini
     - board
     - packages
     - README.md

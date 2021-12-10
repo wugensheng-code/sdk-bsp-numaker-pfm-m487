@@ -1,1 +1,2 @@
-# sdk-bsp-numaker-pfm-m487
+# rt-studio
+This is repository of rt-studio sdk-bsp 

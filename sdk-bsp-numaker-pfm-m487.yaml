@@ -90,30 +90,31 @@ template_projects:
     - template.ewd
     source_path_offset: project_0
     target_path_offset: ''
-  external_files:
-  - package_type: RT-Thread_Source_Code
-    package_name: RT-Thread
-    package_vendor: ''
-    package_version: 4.0.4
-    source_path_offset: ''
-    target_path_offset: rt-thread
-    files_and_folders:
-    - components
-    - include
-    - libcpu/arm
-    - libcpu/Kconfig
-    - libcpu/SConscript
-    - src
-    - tools
-    - Kconfig
-    - LICENSE
-  - package_type: Debugger_Support_Packages
-    package_name: OpenOCD-Nuvoton
-    package_vendor: 'Nuvoton'
-    package_version: 1.0.0
-    source_path_offset: ''
-    target_path_offset: ''
-    files_and_folders: []
+  # external_files:
+  external_files: []
+  # - package_type: RT-Thread_Source_Code
+  #   package_name: RT-Thread
+  #   package_vendor: ''
+  #   package_version: 4.0.4
+  #   source_path_offset: ''
+  #   target_path_offset: rt-thread
+  #   files_and_folders:
+  #   - components
+  #   - include
+  #   - libcpu/arm
+  #   - libcpu/Kconfig
+  #   - libcpu/SConscript
+  #   - src
+  #   - tools
+  #   - Kconfig
+  #   - LICENSE
+  # - package_type: Debugger_Support_Packages
+  #   package_name: OpenOCD-Nuvoton
+  #   package_vendor: 'Nuvoton'
+  #   package_version: 1.0.0
+  #   source_path_offset: ''
+  #   target_path_offset: ''
+  #   files_and_folders: []
   project_description: ''
   project_name: numaker-pfm-m487
   project_type: rt-thread|@full|@4.0.4
